@@ -16,5 +16,8 @@ namespace SPEMoorthy.Server.Models
         string Description { get; set; }
         string URI { get; set; }
         bool IsActive { get; set; }
+        string Version { get; set; }
+        DateTime CreatedDate { get; set; }
+        DateTime ModifiedDate { get; set; }
     }
 }
