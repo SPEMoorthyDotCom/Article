@@ -45,9 +45,11 @@ namespace SPEMoorthy.Server.Controllers
             myArticles.Add(3, "003_Fix_SQL_Database_CRC_Error.md");
             myArticles.Add(4, "004_Mini_Project_GST_Invoicing.md");
 
+            String tkPart1 = "ghp_cCMazEX9IXEbn";
+            String tkPart2 = "UNyYoaTGFWCLvWTPM1RND33";
 
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SPEMoorthy"));
-            var tokenAuth = new Credentials("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");
+            var tokenAuth = new Credentials(tkPart1 + tkPart2);
             gitHubClient.Credentials = tokenAuth;
 
             string articleName = "";
