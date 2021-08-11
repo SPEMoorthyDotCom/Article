@@ -47,7 +47,7 @@ namespace SPEMoorthy.Server.Controllers
 
 
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SPEMoorthy"));
-            var tokenAuth = new Credentials("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");
+            var tokenAuth = new Credentials("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");
             gitHubClient.Credentials = tokenAuth;
 
             string articleName = "";
